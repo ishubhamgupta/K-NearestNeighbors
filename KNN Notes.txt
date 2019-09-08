@@ -1,0 +1,20 @@
+** K Nearest Neighbors ** 
+
+KNN is a classification algorithm that operates on a very simple principle.
+
+*Training Algorithm*
+1. Store all the data
+
+*Prediction Algorithm*
+1. Calculate the distance from x to all points in your data
+2. Sort the points in your data by increasing distance from x
+3. Predict the majority label of the 'K' closest points
+
+~PROs~
+- Very Simple
+- Training is trivial
+- Works with any number of classes
+- Easy to add more data
+- Few parameters
+	- K
+	- Distance Metric
